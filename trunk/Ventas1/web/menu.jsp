@@ -24,7 +24,7 @@
 
 	<div class="header">
          <div class="logo"><a href="#"><img src="img/logo.jpg" alt="" title="" border="0" /></a></div>    
-         <div class="right_header">Bienvenida! Sandra, | <a href="logout.html" class="logout" title="Cerrar mi sesion como usuario validado">Log Out</a></div> 
+         <div class="right_header">Bienvenida! Sandra, | <a href="logout.jsp" class="logout" title="Cerrar mi sesion como usuario validado">Log Out</a></div> 
 
         <div class="title">
             <h1>
@@ -40,8 +40,8 @@
             <li><a id="A2" href="#">Empresa<!--[if IE 7]><!--></a><!--<![endif]-->
             <!--[if lte IE 6]><table><tr><td><![endif]-->
                 <ul>
-                <li><a id="A21" href="Empleados.html" title="" runat="server">Empleados</a></li>
-                <li><a id="A22" href="Roles.html" title="" runat="server">Roles</a></li>
+                <li><a id="A21" href="Empleados.jsp" title="" runat="server">Empleados</a></li>
+                <li><a id="A22" href="Roles.jsp" title="" runat="server">Roles</a></li>
                 <li><a id="A23" href="#" title="" runat="server">Configuración</a></li>
                 </ul>
             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
@@ -49,27 +49,27 @@
             <li><a id="A4" href="#">Productos<!--[if IE 7]><!--></a><!--<![endif]-->
             <!--[if lte IE 6]><table><tr><td><![endif]-->
                 <ul>
-                <li><a id="A41" href="Productos.html" title="" runat="server">Catalogo</a></li>
-                <li><a id="A9" href="Stock.html" title="" runat="server">Stock</a></li>
-                <li><a id="A6" href="Precios.html" title="" runat="server">Precios</a></li>
-                <li><a id="A7" href="Categorias.html" title="" runat="server">Categorías</a></li>
+                <li><a id="A41" href="Productos.jsp" title="" runat="server">Catalogo</a></li>
+                <li><a id="A9" href="Stock.jsp" title="" runat="server">Stock</a></li>
+                <li><a id="A6" href="Precios.jsp" title="" runat="server">Precios</a></li>
+                <li><a id="A7" href="Categorias.jsp" title="" runat="server">Categorías</a></li>
                 </ul>
             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
             </li>
             <li><a id="A5" href="#">Compras</a>
             <!--[if lte IE 6]><table><tr><td><![endif]-->
                 <ul>
-                <li><a id="A51" href="Proveedores.html" title="" runat="server">Proveedores</a></li>
-                <li><a id="A53" href="Compras.html" title="" runat="server">Registro de Compras</a></li>
+                <li><a id="A51" href="Proveedores.jsp" title="" runat="server">Proveedores</a></li>
+                <li><a id="A53" href="Compras.jsp" title="" runat="server">Registro de Compras</a></li>
                 </ul>
             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
             </li>
             <li><a id="A3" href="#" >Ventas<!--[if IE 7]><!--></a><!--<![endif]-->
             <!--[if lte IE 6]><table><tr><td><![endif]-->
                 <ul>
-                <li><a id="A31" href="Clientes.html" title="" runat="server">Clientes</a></li>
-                <li><a id="A32" href="Promociones.html" title="" runat="server">Promociones</a></li>
-                <li><a id="A8" href="Ventas.html" title="" runat="server">Facturación</a></li>
+                <li><a id="A31" href="Clientes.jsp" title="" runat="server">Clientes</a></li>
+                <li><a id="A32" href="Promociones.jsp" title="" runat="server">Promociones</a></li>
+                <li><a id="A8" href="Ventas.jsp" title="" runat="server">Facturación</a></li>
                 </ul>
             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
             </li>

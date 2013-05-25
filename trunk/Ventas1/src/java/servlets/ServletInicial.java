@@ -62,6 +62,7 @@ public class ServletInicial extends HttpServlet {
         processRequest(request, response);
         
         
+        request.getRequestDispatcher("/menu.jsp").forward(request, response);
         
     }
 

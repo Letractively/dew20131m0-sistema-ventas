@@ -24,6 +24,7 @@
                 } else {
 
                     document.form1.action = contexto + "/inicio";
+                    document.form1.method="POST";
                     document.form1.submit();
                     return true;
                 }
@@ -49,26 +50,26 @@
 	    <div class="imgSuperior"><!-- Imagen superior del main --></div>
 
         <div class="homeBloqueIzq">
-            <div id='fg_membersite'>
-                 <form id="form1" name="form1" action="" method="post">
+            <div id="fg_membersite">
+                 <form id="form1" name="form1" action="menu.jsp" >
                      <fieldset >
                      <legend>Login</legend>
 
-                     <input type='hidden' name='submitted' id='submitted' value='1'/>
+                     <input type="hidden" name="submitted" id="submitted" value="1"/>
 
-                     <div class='short_explanation'>* campos requeridos</div>
+                     <div class="short_explanation">* campos requeridos</div>
 
-                     <div class='container'>
-                          <label for='username' >Usuario*:</label><br/>
-                          <input type='text' name='usuario' id='usuario' value='' maxlength="50" /><br/>
+                     <div class="container">
+                          <label for="username" >Usuario*:</label><br/>
+                          <input type="text" name="usuario" id="usuario" value="" maxlength="50" /><br/>
                      </div>
-                     <div class='container'>
-                          <label for='password' >Password*:</label><br/>
-                          <input type='password' name='password' id='password' maxlength="50" /><br/>
+                     <div class="container">
+                          <label for="password" >Password*:</label><br/>
+                          <input type="password" name="password" id="password" maxlength="50" /><br/>
                      </div>
 
-                     <div class='container'>
-                          <input type='submit' name='Submit' value='Ingresar' onclick="javascript:abrirMenu()" />
+                     <div class="container">
+                          <input type="submit" name="Submit" value="Ingresar"  />
                      </div>
                  </fieldset>
                  </form>
